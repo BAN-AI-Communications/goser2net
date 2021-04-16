@@ -4,8 +4,8 @@ A serial to telnet client and library as replacement for ser2net.
 
 # How to use the library
 
-To spawn a telnet server on port 5555 and redirect to ttyS0 running at 115200N8 use this code
-example:
+To spawn a telnet server on port 5555 and redirect to ttyS0 running at 115200N8
+use this code example:
 
 ```
 import (
