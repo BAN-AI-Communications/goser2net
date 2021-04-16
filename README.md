@@ -1,8 +1,6 @@
-go-ser2net
-========================
+# go-ser2net
 
 A serial to telnet client and library as replacement for ser2net.
-
 
 # How to use the library
 
@@ -76,4 +74,3 @@ import (
 		}
 	}
 ```
-
