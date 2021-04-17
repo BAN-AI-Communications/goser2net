@@ -48,7 +48,7 @@ func main() {
 		scanner := bufio.NewScanner(file)
 		for scanner.Scan() {
 
-			if len(scanner.Text()) == 0 {
+			if scanner.Text() == "" {
 				continue
 			}
 			if strings.HasPrefix(scanner.Text(), "BANNER") {
