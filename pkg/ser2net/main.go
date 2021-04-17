@@ -220,7 +220,7 @@ func (w *SerialWorker) Close(rx chan byte) {
 	}
 	w.rxJobQueue = new
 	w.mux.Unlock()
-	return
+
 }
 
 // Open adds a channel to the internal list
