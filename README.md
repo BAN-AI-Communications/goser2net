@@ -1,5 +1,8 @@
 # go-ser2net
 
+[![GoReportCard](https://goreportcard.com/badge/github.com/BAN-AI-Communications/goser2net)
+[![Maintainability](https://api.codeclimate.com/v1/badges/3c38ebecd2c09b539180/maintainability)](https://codeclimate.com/github/BAN-AI-Communications/goser2net/maintainability)
+
 A serial to telnet client and library as replacement for ser2net.
 
 # How to use the library
