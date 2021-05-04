@@ -49,12 +49,10 @@ func (w *SerialWorker) connectSerial() {
 
 	w.serialConn = con
 	w.connected = true
-
 }
 
 func (w *SerialWorker) txWorker() {
 	for job := range w.txJobQueue {
-
 		if w.connected {
 			_, err := w.serialConn.Write([]byte{job})
 			if err != nil {
@@ -85,7 +83,6 @@ func (w *SerialWorker) rxWorker() {
 	for {
 		b := make([]byte, 1)
 		_, err := w.serialConn.Read(b)
-
 		if err != nil {
 			if err == syscall.EINTR {
 				continue
@@ -220,7 +217,6 @@ func (w *SerialWorker) Close(rx chan byte) {
 	}
 	w.rxJobQueue = new
 	w.mux.Unlock()
-
 }
 
 // Open adds a channel to the internal list
@@ -251,7 +247,6 @@ type SerialIOWorker struct {
 
 // Read implements gotty slave interface
 func (g *SerialIOWorker) Read(buffer []byte) (n int, err error) {
-
 	b := <-g.rx
 
 	if b == '\n' && g.lastRxchar != '\r' {
@@ -259,7 +254,6 @@ func (g *SerialIOWorker) Read(buffer []byte) (n int, err error) {
 			buffer[n] = '\r'
 			n++
 		}
-
 	}
 	if n < len(buffer) {
 		buffer[n] = b
@@ -273,7 +267,6 @@ func (g *SerialIOWorker) Read(buffer []byte) (n int, err error) {
 
 // Write implements gotty slave interface
 func (g *SerialIOWorker) Write(buffer []byte) (n int, err error) {
-
 	for _, p := range buffer {
 
 		if g.lastTxchar == '\r' && p != '\n' {
@@ -304,8 +297,7 @@ func (g *SerialIOWorker) Close() (err error) {
 }
 
 // ResizeTerminal implements gotty slave interface
-func (g SerialIOWorker) ResizeTerminal(columns int, rows int) (err error) {
-
+func (g SerialIOWorker) ResizeTerminal(columns, rows int) (err error) {
 	return
 }
 
@@ -320,7 +312,8 @@ func (g SerialIOWorker) WindowTitleVariables() (titles map[string]interface{}) {
 // New returns a GoTTY slave
 func (w *SerialWorker) New(params map[string][]string) (s server.Slave, err error) {
 	rx := w.Open()
-	s = &SerialIOWorker{w: w,
+	s = &SerialIOWorker{
+		w:  w,
 		rx: rx,
 	}
 
@@ -330,7 +323,8 @@ func (w *SerialWorker) New(params map[string][]string) (s server.Slave, err erro
 // NewIoReadWriteCloser returns a ReadWriteCloser interface
 func (w *SerialWorker) NewIoReadWriteCloser() (s io.ReadWriteCloser, err error) {
 	rx := w.Open()
-	s = &SerialIOWorker{w: w,
+	s = &SerialIOWorker{
+		w:  w,
 		rx: rx,
 	}
 
