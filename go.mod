@@ -1,6 +1,6 @@
 module github.com/johnsonjh/goser2net
 
-go 1.16
+go 1.17
 
 require (
 	github.com/NYTimes/gziphandler v1.1.2-0.20191113155120-2f8bb1d30d9d // indirect
