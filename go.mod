@@ -27,7 +27,7 @@ require (
 	go.uber.org/goleak v1.1.11-0.20200902203756-89d54f0adef2
 	golang.org/x/lint v0.0.0-20201208152925-83fdc39ff7b5 // indirect
 	golang.org/x/sys v0.0.0-20210503173754-0981d6026fa6 // indirect
-	golang.org/x/tools v0.1.1-0.20210504191224-f03daeacec72 // indirect
+	golang.org/x/tools v0.1.1-0.20210506031521-d1ea2c78a568 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
