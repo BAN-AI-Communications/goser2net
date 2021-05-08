@@ -25,7 +25,7 @@ require (
 	github.com/yudai/hcl v0.0.0-20151013225006-5fa2393b3552 // indirect
 	go.bug.st/serial.v1 v0.0.0-20191202182710-24a6610f0541
 	go.uber.org/goleak v1.1.11-0.20200902203756-89d54f0adef2
-	golang.org/x/lint v0.0.0-20201208152925-83fdc39ff7b5 // indirect
+	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616 // indirect
 	golang.org/x/sys v0.0.0-20210507161434-a76c4d0a0096 // indirect
 	golang.org/x/tools v0.1.1-0.20210507205639-f05e912406e9 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
