@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/9elements/go-ser2net/pkg/ser2net"
+	"github.com/johnsonjh/goser2net/pkg/ser2net"
 )
 
 func main() {
