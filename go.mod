@@ -20,7 +20,7 @@ require (
 	github.com/pkg/errors v0.9.2-0.20201214064552-5dd12d0cfe7f // indirect
 	github.com/stretchr/objx v0.3.1-0.20210208113821-6c797d85514c // indirect
 	github.com/stretchr/testify v1.7.1-0.20210427113832-6241f9ab9942 // indirect
-	github.com/urfave/cli v1.22.2-0.20191024042601-850de854cda0 // indirect
+	github.com/urfave/cli v1.22.5
 	github.com/yudai/gotty v2.0.0-alpha.3+incompatible
 	github.com/yudai/hcl v0.0.0-20151013225006-5fa2393b3552 // indirect
 	go.bug.st/serial.v1 v0.0.0-20191202182710-24a6610f0541
