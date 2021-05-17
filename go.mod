@@ -7,7 +7,7 @@ require (
 	github.com/PatrickRudolph/telnet v0.0.0-20210301083732-6a03c1f7971f
 	github.com/cpuguy83/go-md2man/v2 v2.0.1-0.20201216211136-af8da765f046 // indirect
 	github.com/creack/goselect v0.1.2 // indirect
-	github.com/creack/pty v1.1.12-0.20210405200108-060a4be6cec1 // indirect
+	github.com/creack/pty v1.1.12 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/elazarl/go-bindata-assetfs v1.0.2-0.20201223111950-02daa69507fc // indirect
 	github.com/fatih/structs v1.1.1-0.20181010231757-878a968ab225 // indirect
