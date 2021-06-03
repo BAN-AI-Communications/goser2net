@@ -7,7 +7,7 @@ require (
 	github.com/PatrickRudolph/telnet v0.0.0-20210301083732-6a03c1f7971f
 	github.com/cpuguy83/go-md2man/v2 v2.0.1-0.20201216211136-af8da765f046 // indirect
 	github.com/creack/goselect v0.1.2 // indirect
-	github.com/creack/pty v1.1.12 // indirect
+	github.com/creack/pty v1.1.13 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/elazarl/go-bindata-assetfs v1.0.2-0.20201223111950-02daa69507fc // indirect
 	github.com/fatih/structs v1.1.1-0.20181010231757-878a968ab225 // indirect
@@ -28,9 +28,9 @@ require (
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616 // indirect
 	golang.org/x/net v0.0.0-20210525063256-abc453219eb5 // indirect
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
-	golang.org/x/sys v0.0.0-20210525143221-35b2ab0089ea // indirect
+	golang.org/x/sys v0.0.0-20210603125802-9665404d3644 // indirect
 	golang.org/x/term v0.0.0-20210503060354-a79de5458b56 // indirect
-	golang.org/x/tools v0.1.3-0.20210527195127-5ab822f631a3 // indirect
+	golang.org/x/tools v0.1.3-0.20210603180308-8f2cf6ccfcb4 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
