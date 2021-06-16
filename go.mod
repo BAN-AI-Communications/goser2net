@@ -1,4 +1,4 @@
-godule github.com/johnsonjh/goser2net
+module github.com/johnsonjh/goser2net
 
 go 1.17
 
