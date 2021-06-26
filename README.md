@@ -10,7 +10,7 @@ A serial to telnet client and library as replacement for ser2net.
 To spawn a telnet server on port 5555 and redirect to ttyS0 running at 115200N8
 use this code example:
 
-```
+```go
 import (
 	"github.com/9elements/go-ser2net/pkg/ser2net"
 )
@@ -34,7 +34,7 @@ import (
 
 To use an io.ReadWriter do:
 
-```
+```go
 import (
         "github.com/9elements/go-ser2net/pkg/ser2net"
 )
