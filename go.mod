@@ -14,7 +14,7 @@ require (
 	github.com/gorilla/websocket v1.4.3-0.20210424162022-e8629af678b7
 	github.com/hashicorp/errwrap v1.1.0
 	github.com/hashicorp/go-multierror v1.1.1
-	github.com/johnsonjh/leaktestfe v0.0.0-20210616124443-1446a662defb
+	github.com/johnsonjh/leaktestfe v0.0.0-20210629212503-a92ef2d4610c
 	github.com/kr/pretty v0.2.1
 	github.com/kr/pty v1.1.8
 	github.com/kr/text v0.2.0
