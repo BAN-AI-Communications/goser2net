@@ -21,9 +21,9 @@ require (
 	github.com/pkg/errors v0.9.2-0.20201214064552-5dd12d0cfe7f
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2
 	github.com/russross/blackfriday/v2 v2.1.0
-	github.com/stretchr/objx v0.3.1-0.20210208113821-6c797d85514c
-	github.com/stretchr/testify v1.7.1-0.20210427113832-6241f9ab9942
-	github.com/urfave/cli v1.22.5
+	github.com/stretchr/objx v0.3.1-0.20210707115046-31052d358c99
+	github.com/stretchr/testify v1.7.1-0.20210709103546-fd9e1fb0e1a4
+	github.com/urfave/cli v1.22.2-0.20191024042601-850de854cda0
 	github.com/yudai/gotty v2.0.0-alpha.3+incompatible
 	github.com/yudai/hcl v0.0.0-20151013225006-5fa2393b3552
 	go.bug.st/serial.v1 v0.0.0-20191202182710-24a6610f0541
@@ -33,7 +33,7 @@ require (
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c
 	golang.org/x/term v0.0.0-20210615171337-6886f2dfbf5b
-	golang.org/x/tools v0.1.5-0.20210701083923-20dafe5d6055
-	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
+	golang.org/x/tools v0.1.5-0.20210708231608-69948257bde7
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
+	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
 )
