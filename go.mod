@@ -33,7 +33,7 @@ require (
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c
 	golang.org/x/term v0.0.0-20210615171337-6886f2dfbf5b
-	golang.org/x/tools v0.1.5-0.20210708231608-69948257bde7
+	golang.org/x/tools v0.1.5-0.20210710004140-cb1acef8be35
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
 )
