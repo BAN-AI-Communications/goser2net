@@ -14,7 +14,7 @@ require (
 	github.com/gorilla/websocket v1.4.3-0.20210424162022-e8629af678b7
 	github.com/hashicorp/errwrap v1.1.0
 	github.com/hashicorp/go-multierror v1.1.1
-	github.com/johnsonjh/leaktestfe v0.0.0-20210725032240-eaa86b37fd00
+	github.com/johnsonjh/leaktestfe v0.0.0-20210729072946-c65fb1faa282
 	github.com/kr/pretty v0.3.0
 	github.com/kr/pty v1.1.8
 	github.com/kr/text v0.2.0
@@ -29,12 +29,15 @@ require (
 	go.bug.st/serial.v1 v0.0.0-20191202182710-24a6610f0541
 	go.uber.org/goleak v1.1.11-0.20210525221708-d36f3aede898
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616
-	golang.org/x/net v0.0.0-20210716203947-853a461950ff
+	golang.org/x/net v0.0.0-20210726213435-c6fcb2dbf985
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c
 	golang.org/x/term v0.0.0-20210615171337-6886f2dfbf5b
-	golang.org/x/tools v0.1.6-0.20210723180839-46d1522a5d83
+	golang.org/x/tools v0.1.6-0.20210726203631-07bc1bf47fb2
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 )
 
-require gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
+require (
+	github.com/rogpeppe/go-internal v1.8.1-0.20210531173208-9df06c38c09b // indirect
+	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
+)
