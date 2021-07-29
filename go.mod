@@ -15,7 +15,7 @@ require (
 	github.com/hashicorp/errwrap v1.1.0
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/johnsonjh/leaktestfe v0.0.0-20210725032240-eaa86b37fd00
-	github.com/kr/pretty v0.2.1
+	github.com/kr/pretty v0.3.0
 	github.com/kr/pty v1.1.8
 	github.com/kr/text v0.2.0
 	github.com/pkg/errors v0.9.2-0.20201214064552-5dd12d0cfe7f
