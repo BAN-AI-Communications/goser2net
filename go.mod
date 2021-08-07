@@ -29,11 +29,11 @@ require (
 	go.bug.st/serial.v1 v0.0.0-20191202182710-24a6610f0541
 	go.uber.org/goleak v1.1.11-0.20210525221708-d36f3aede898
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616
-	golang.org/x/net v0.0.0-20210726213435-c6fcb2dbf985
+	golang.org/x/net v0.0.0-20210805182204-aaa1db679c0d
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c
 	golang.org/x/term v0.0.0-20210615171337-6886f2dfbf5b
-	golang.org/x/tools v0.1.6-0.20210726203631-07bc1bf47fb2
+	golang.org/x/tools v0.1.6-0.20210804210322-f367f012d549
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 )
 
