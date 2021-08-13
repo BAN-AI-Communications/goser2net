@@ -23,17 +23,17 @@ require (
 	github.com/russross/blackfriday/v2 v2.1.0
 	github.com/stretchr/objx v0.3.1-0.20210716204454-4ff3852e7937
 	github.com/stretchr/testify v1.7.1-0.20210720145538-a9de4f065a6f
-	github.com/urfave/cli v1.22.2-0.20191024042601-850de854cda0
+	github.com/urfave/cli v1.22.5
 	github.com/yudai/gotty v2.0.0-alpha.3+incompatible
 	github.com/yudai/hcl v0.0.0-20151013225006-5fa2393b3552
 	go.bug.st/serial.v1 v0.0.0-20191202182710-24a6610f0541
-	go.uber.org/goleak v1.1.11-0.20210525221708-d36f3aede898
+	go.uber.org/goleak v1.1.11-0.20210813005559-691160354723
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616
-	golang.org/x/net v0.0.0-20210805182204-aaa1db679c0d
+	golang.org/x/net v0.0.0-20210813160813-60bc85c4be6d
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210806184541-e5e7981a1069
+	golang.org/x/sys v0.0.0-20210809222454-d867a43fc93e
 	golang.org/x/term v0.0.0-20210615171337-6886f2dfbf5b
-	golang.org/x/tools v0.1.6-0.20210806193852-d529aec52f04
+	golang.org/x/tools v0.1.6-0.20210813165731-45389f592fe9
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 )
 
