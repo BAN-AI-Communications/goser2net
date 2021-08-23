@@ -24,8 +24,7 @@ require (
 	golang.org/x/sys v0.0.0-20210823070655-63515b42dcdf // indirect
 	golang.org/x/term v0.0.0-20210615171337-6886f2dfbf5b // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
+	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 )
-
-require github.com/russross/blackfriday/v2 v2.1.0 // indirect
 
 replace github.com/codegangsta/cli v1.22.5 => github.com/urfave/cli v1.22.5
