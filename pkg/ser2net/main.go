@@ -221,7 +221,6 @@ func (w *SerialWorker) Close(rx chan byte) {
 	}
 	w.rxJobQueue = new
 	w.mux.Unlock()
-	return
 }
 
 // Open adds a channel to the internal list
@@ -293,8 +292,8 @@ func (g *SerialIOWorker) Write(buffer []byte) (n int, err error) {
 			g.w.txJobQueue <- p
 		}
 		g.lastTxchar = p
-		if p == '\r' {
-			g.w.txJobQueue <- '\n'
+		if p == '\n' {
+			g.w.txJobQueue <- '\r'
 			n++
 			continue
 		} else if p == 0x7f {
