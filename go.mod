@@ -24,9 +24,9 @@ require (
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/stretchr/testify v1.8.2-0.20221102114659-1333b5d3bda8 // indirect
 	github.com/yudai/hcl v0.0.0-20151013225006-5fa2393b3552 // indirect
-	golang.org/x/crypto v0.4.1-0.20221212223212-23edec0b383a // indirect
-	golang.org/x/sys v0.3.1-0.20221213140147-cffae8ece416 // indirect
-	golang.org/x/term v0.3.0 // indirect
+	golang.org/x/crypto v0.17.0 // indirect
+	golang.org/x/sys v0.15.0 // indirect
+	golang.org/x/term v0.15.0 // indirect
 )
 
 replace github.com/codegangsta/cli v1.22.10 => github.com/urfave/cli v1.22.10
